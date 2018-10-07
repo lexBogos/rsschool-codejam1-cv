@@ -1,21 +1,25 @@
 body {
 font-family: "Helvetica", "Arial", sans-serif;
 width: 1024px;
-color: black;
+color: #333333;
 text-align: center;
-padding: 0 2em;
+margin: 0;
 }
+
+.layout {
+  width: 900px;
+  margin-left: 5%;
+  padding: 2em 0;
+}
+
+
 
 
 .h1{
 
 font-family: "Helvetica", "Arial", sans-serif;
 color:#008080;
-
 }
-
-
-
 
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 .social a{
@@ -31,7 +35,13 @@ color:#008080;
     padding:15px;
     color:#000;
 }
+
 .facebook a:hover{background:#3b5998;color:#fff;}
 .telegram a:hover{background:#249bd7;color:#fff;}
 
 
+a {
+  color: #039fc9;
+}
+a:hover {
+  color: #f27d2c;
