@@ -132,17 +132,6 @@ img.avatar {
   list-style-type: circle;
 }
 
-/***********************************
-* =References
-***********************************/
-
-.reference {
-  font-size: 18px;
-}
-
-.reference-details {
-  margin-bottom: 20px;
-}
 
 @media only screen and (max-width : 768px) {
   section {
