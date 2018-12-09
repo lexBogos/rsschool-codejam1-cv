@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Agile software development</h1>
+					<p>
+						<small>Created by <a href="https://github.com/lexBogos">Alexey Tomashevich</a></small>
+					</p>
+				</section>
+				<section>
+				<h2>INTRODUCTION</h2>
+				</section>
+				<section>
+						<section >
+						
+						<p>Waterfall SDLC Model</p>
+						<ol style="font-size: 25px">
+							<li>System and software requirements: captured in a product requirements document</li>
+							<li>Analysis: resulting in models, schema, and business rules</li>
+							<li>Design: resulting in the software architecture</li>
+							<li>Coding: the development, proving, and integration of software</li>
+							<li>Testing: the systematic discovery and debugging of defects</li>
+							<li>Operations: the installation, migration, support, and maintenance of complete systems</li>
+						</ol>	
+						<img width="604" height="245" data-src="waterfall-model.png" alt="Waterfall">
+					</section>
+					<section >
+						<h2>Advantages</h2>
+						<ul>
+						<li>Easy to manage due to the rigidity of the model</li>
+						<li>Works well for smaller projects where requirements are very well understood</li>
+						<li>Clearly defined stages</li>
+						<li>Phases are processed and completed one at a time</li>
+						<li>Easy to arrange tasks</li>
+						<li>Process and results are well documented</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Disadvantages</h2>
+						<ul>
+						<li>No working software is produced until late during the life cycle</li>
+						<li>High amounts of risk and uncertainty</li>
+						<li>Not a good model for complex and object-oriented projects</li>
+						<li>Poor model for long and ongoing projects</li>
+						<li>It is difficult to measure progress within stages</li>
+						<li>Cannot accommodate changing requirements</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section data-background="#dddddd" >
+						<h4>Spiral Model</h4>
+						<p>Rapid development of understanding via experimental discovery</p>
+						<img width="700" height="400" data-src="Spiral_model.png" alt="Spiral">
+					</section>
+					<section>
+						<h4>Rapid Application Development(RAD)</h4>
+						<p>Rapid build of models, prototypes, and initial system using more advanced tools</p>
+						<img width="700" height="400" data-src="RAD.png" alt="RAD">
+					</section>
+					<section>
+						<h4>Rational Unified Process(RUP)</h4>
+						<p>Iterative and incremental development of ever large and more complex system</p>
+						<img width="700" height="400" data-src="RUP.png" alt="RUP">
+					</section>
+					<section>
+						<h2>Statistics</h2>
+						<p>
+						In 1994 Stadish Group Chaos’s report survey noted the following: 
+						<ul style="font-size: 35px">
+						<li>31% of project will be canceled before they completed</li>
+						<li>53% of the project will cost more then 189% of their estimatesy</li>
+						<li>16% of project were completed on time and budget</li>
+						<li>For the largest companies, completed project delivered only 42% of the original feature and function</li>
+						<li>And incomplete requirements and specifications: 12% of all projects</li>
+						</ul>
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<h2>Agile processes</h2>
+				</section>
+
+				<section>
+					<section>
+					<h2>What is Agile?</h2>
+						<img width="500" height="300" data-src="What_is_Agile_1.png" alt="What_is_Agile_1">
+					<p>
+						Agile is a time boxed, iterative approach to software delivery that builds software incrementally from the start of the project, instead of trying to deliver it all at once near the end. 
+					</p>
+					</section>
+					<section>
+						<img width="700" height="400" data-src="What_is_Agile_2.png" alt="What_is_Agile_2">
+					<p>
+						It works by breaking projects down into little bits of user functionality called user stories, prioritizing them, and then continuously delivering them in short two week cycles called iterations. 
+					</p>
+					</section>
+				</section>
+
+				<section>
+					<section data-background="#dddddd">
+						<h2>The Manifesto for Agile Software Development</h2>
+						
+							<ul>
+								<li>Individuals and Interactions over processes and tools</li>
+								<li>Working Software over comprehensive documentation</li>
+								<li>Customer Collaboration over contract negotiation</li>
+								<li>Responding to Change over following a plan</li>
+							</ul>
+						
+
+
+					</section>
+					<section>
+						<h2>Principles</h2>
+						<ol style="font-size: 25px">
+							<li>Customer satisfaction by early and continuous delivery of valuable software.</li>
+							<li>Welcome changing requirements, even in late development.</li>
+							<li>Deliver working software frequently (weeks rather than months)</li>
+							<li>Close, daily cooperation between business people and developers</li>
+							<li>Projects are built around motivated individuals, who should be trusted</li>
+							<li>Face-to-face conversation is the best form of communication (co-location)</li>
+							<li>Working software is the primary measure of progress</li>
+							<li>Sustainable development, able to maintain a constant pace</li>
+							<li>Continuous attention to technical excellence and good design</li>
+							<li>Simplicity—the art of maximizing the amount of work not done—is essential</li>
+							<li>Best architectures, requirements, and designs emerge from self-organizing teams</li>
+							<li>Regularly, the team reflects on how to become more effective, and adjusts accordingly</li>
+						</ol>	
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>How does it work?</h2>
+					</section>
+					<section>	
+						<h4>You make a list</h4>
+						<img width="300" height="300" data-src="How_does_it_work_1.png" alt="How_does_it_work_1">
+					</section>
+					<section>
+						<h4>You size things up</h4>
+						<img width="300" height="300" data-src="How_does_it_work_2.png" alt="How_does_it_work_2">
+					</section>
+					<section>
+						<h4>You set some priorities</h4>
+						<img width="300" height="300" data-src="How_does_it_work_3.png" alt="How_does_it_work_3">
+					</section>
+					<section>
+						<h4>You start executing</h4>
+						<img width="300" height="300" data-src="How_does_it_work_4.png" alt="How_does_it_work_4">
+					</section>
+					<section>
+						<h4>You update the plan as you go</h4>
+						<img width="500" height="300" data-src="How_does_it_work_5.png" alt="How_does_it_work_5">
+					</section>
+
+				</section>
+
+
+				<section>
+					<section data-background="#dddddd">
+						<h2>How is Agile different?</h2>
+						<h4>Analysis, design, coding, and testing are continuous activities</h4>
+						<img width="500" height="300" data-src="Agile_different_1.png" alt="Agile_different_1">	
+					</section>
+					<section data-background="#dddddd">
+						<h4>Development is iterative</h4>
+						<img width="500" height="300" data-src="Agile_different_2.png" alt="Agile_different_2">	
+					</section>
+					<section data-background="#dddddd">
+						<h4>Planning is adaptive</h4>
+						<img width="500" height="300" data-src="Agile_different_3.png" alt="Agile_different_3">	
+					</section>
+					<section data-background="#dddddd">
+						<h4>Roles blur</h4>
+						<img width="500" height="300" data-src="Agile_different_4.png" alt="Agile_different_4">	
+					</section>
+					<section data-background="#dddddd">
+						<h4>Scope can vary</h4>
+						<img width="500" height="300" data-src="Agile_different_5.png" alt="Agile_different_5">	
+					</section>
+					<section data-background="#dddddd">
+						<h4 >Requirements can change</h4>
+						<img width="500" height="300" data-src="Agile_different_6.png" alt="Agile_different_6">	
+					</section>
+					<section data-background="#dddddd">
+						<h4>Working software is the primary measure of success</h4>
+						<img width="500" height="300" data-src="Agile_different_7.png" alt="Agile_different_7">	
+					</section>
+				</section>
+
+				<section>	
+					<h2>User Stories</h2>
+					<img width="500" height="300" data-src="userstories-features-customers-want-to-see.png" alt="userstories-features-customers-want-to-see">	
+					
+					<ul style="font-size: 30px">
+						<li>User stories are features our customers might one day like to see in their software.</li>
+						<li>Typically no more than a couple days work, they form the basis of our Agile plans.</li>
+						<li>We get them by sitting down with our customers and asking lots of questions.</li>	
+					</ul>	
+				</section>
+
+				<section data-background="#dddddd">	
+					<h2>Estimation</h2>
+					<p>The fine art of expectation guessing</p>
+					<img width="500" height="300" data-src="estimation-precision.png" alt="estimation-precision">	
+					
+				</section>
+				
+				<section data-background="#dddddd">
+				<h2>Iterations</h2>
+				<p>Agile's engine for getting things done</p>
+				<img width="500" height="300" data-src="iteration-engine.png" alt="iteration-engine">
+				</section>
+
+				<section data-background="#dddddd">
+				<h2>Planning</h2>
+				<p>The fine art of expectation setting</p>
+				<img width="500" height="300" data-src="agile-planning-101.png" alt="agile-planning-101">
+				</section>
+
+				<section>
+				<h4>If we sum all, we get somthing like Scrum model</h4>
+				<img width="740" height="490" data-src="PO-in-a-nutshell.png" alt="PO-in-a-nutshell">
+				</section>
+
+				<section >
+					<h1>THE END</h1>
+					<p>	Source:</p>
+					<p>
+						- <a href="http://www.agilenutshell.com/">agilenutshell.com</a><br>
+						- <a href="https://github.com/CphBusCosSem3/week16-System_Development/blob/master/Dean%20Leffingwell%20Agile%20Software%20Requirements%20chap1.pdf">Dean Leffingwell Agile Software Requirements</a><br>
+						- <a href=https://habr.com/post/151902/>habr.com</a>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
